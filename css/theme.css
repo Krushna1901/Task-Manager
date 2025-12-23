@@ -1,0 +1,66 @@
+/* ===============================
+   LIGHT / SPACE THEME
+=============================== */
+
+body {
+    background: radial-gradient(circle at top, #206684, #203a43, #2c5364);
+    color: white;
+}
+
+/* Glass Effect */
+.container.glass {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Filters */
+.filter-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.filter-btn.active {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+}
+
+/* Task Item */
+.task-item {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.task-item.completed span {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Delete Button */
+.task-item button {
+    background: #ff4d4d;
+}
+
+.task-item button:hover {
+    background: #ff0000;
+}
+
+/* ===============================
+   DARK MODE THEME
+=============================== */
+
+body.dark {
+    background: radial-gradient(circle at top, #000428, #004e92);
+}
+
+body.dark .container.glass {
+    background: rgba(255, 255, 255, 0.08);
+}
